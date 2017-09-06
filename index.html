@@ -55,6 +55,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
+	<div id="getting-started" class="intro-lead-in"></div>
           <div class="intro-lead-in">Rully & Nesia</div>
           <div class="intro-lead-in">Sunday, Oct 07, 2017</div>
          <!-- <a class="btn btn-xl js-scroll-trigger" href="#about">Where & When</a>-->
@@ -449,6 +450,19 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
 
+    <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <script>
+
+	 $("#getting-started")
+	 .countdown("2017/10/07 15:00:00", function(event) {
+		 $(this).text(
+				       event.strftime('%D days %H:%M:%S')
+				           
+			     );
+		   
+	 });
+
+	</script>
   </body>
 
 </html>
