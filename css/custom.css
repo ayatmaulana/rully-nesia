@@ -120,12 +120,12 @@ a, a:hover, a:focus {
 	height: 100px;
 	justify-content: center;
 	margin: 30px;
-	transform: rotate(45deg);
+	/*transform: rotate(45deg);*/
 	width: 100px;
 
 }
 .simply-countdown-losange > .simply-section > div {
-	transform: rotate(-45deg);
+	/*transform: rotate(-45deg);*/
 
 }
 .simply-countdown-losange > .simply-section > div .simply-amount, .simply-countdown-losange > .simply-section > div .simply-word {
@@ -270,4 +270,32 @@ span.space{
 
 }
 
+@media screen and (max-width: 720px)
+{
+	.simply-countdown-losange{
+		display: inline-block;
+		/*background: red;*/
+		margin-bottom: 30px;
+	}
+	
+	.simply-countdown-losange > .simply-section {
+		-moz-box-align: center;
+		-moz-box-pack: center;
+		align-items: center;
+		border: 2px solid #fecb16;
+		border-radius: 5px;
+		display: inline-block;
+		/*float: left;*/
+		height: 72px;
+		/*justify-content: center;*/
+		margin: 5px;
+		/*transform: rotate(45deg);*/
+		width: 72px;
+	}
+	
+	.simply-section .simply-amount{
+		font-size: 10px;
+	}
+	
+}
 
