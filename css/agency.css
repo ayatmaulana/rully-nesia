@@ -60,33 +60,40 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #fed136; }
 
+
+
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 19px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    /*background-color: #f28e98;*/
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: #f28e98;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #f28e98; }
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 95%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    font-weight: bold;
+    color: #fff;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #f28e98; }
+
+      .navbar-shrink .nav-link{
+        color: #333 !important;
+      }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -107,12 +114,16 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #222222; }
+      background-color: #fff; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
 
+.masthead .container{
+  height: 100vh;
+}
 header.masthead {
+  height: 100vh;
   text-align: center;
   color: white;
   background-image: url("../img/header-bg.jpg");
@@ -598,3 +609,27 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+
+ .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-circle {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    line-height: 38px;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    background: 0 0;
+}
