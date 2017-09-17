@@ -254,6 +254,10 @@ span.space{
 	margin: 0px 5px;
 
 }
+
+.nama{
+	font-size: 35px;
+}
 @-webkit-keyframes planet-rotate {
 	to {
 		-webkit-transform: rotate(1turn);
@@ -297,5 +301,8 @@ span.space{
 		font-size: 10px;
 	}
 	
+	.nama{
+		font-size: 25px
+	}
 }
 
