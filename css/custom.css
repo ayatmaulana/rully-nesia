@@ -21,6 +21,12 @@
  * 3. Comming Soon Area
  * 4. CSS3 Animition
  * ================================*/
+
+@font-face {
+    font-family: Notera;
+    src: url("../font/Notera_PersonalUseOnly.ttf");
+}
+
 .floatleft {
 	float: left 
 
@@ -256,7 +262,8 @@ span.space{
 }
 
 .nama{
-	font-size: 35px;
+	font-size: 38px;
+	font-family: Notera !important
 }
 @-webkit-keyframes planet-rotate {
 	to {
@@ -302,7 +309,8 @@ span.space{
 	}
 	
 	.nama{
-		font-size: 25px
+		font-size: 40px;
+		font-family: Notera !important;
 	}
 }
 
