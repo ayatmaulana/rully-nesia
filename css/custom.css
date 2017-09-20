@@ -263,7 +263,7 @@ span.space{
 
 .nama{
 	font-size: 38px;
-	font-family: Notera !important
+	font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive !important
 }
 @-webkit-keyframes planet-rotate {
 	to {
@@ -310,7 +310,7 @@ span.space{
 	
 	.nama{
 		font-size: 40px;
-		font-family: Notera !important;
+		font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive !important;
 	}
 }
 
